@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+main.container {
+    padding-top: 25px;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background: transparent;
+}
+.jumbotron {
+    padding-top: 80px;
+}
+.bg-image {
+    z-index: -1000;
+    max-width: 100%;
+    min-height: 800px;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+}
+.bg-overlay {
+    z-index: -999;
+    min-height: 800px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    max-width: 100%;
+}
+#menu {
+    position: absolute;
+}
+
+#menu li a {
+    color: #ffffff;
+}
+
+#menu li a:hover, li.nav-item a:hover{
+    color: fuchsia;
+}
+
+.navbar {
+    background-color: #AC0CE8 !important;
+}
+
+.navbar input[type="search"] {
+    color: #ffffff;
+}
+
+h1 {
+    color: #7B0DFF;
+}
+
+.bg-overlay h1 {
+    color: #ffffff;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+main.main__module {
+    min-height: 800px;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+legend {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color:#545454;
+}
+
+.form__multiple {
+    border: 1px solid #E80C7A;
+    color: #E80C7A;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form__multiple:hover {
+    border: 1px solid #FF00FF;
+    color: #FF00FF;
+    cursor: pointer;
+}
+
+.form__multiple.active{ 
+    border: 1px solid #E80C7A;
+    color: #ffffff;
+    background-color: #AC0CE8;
+}
+
+label {
+    color: #545454;
+    margin-bottom: 5px;
+}
+
+.job__post {
+    width: 100%;
+    max-width: 250px;
+    max-height: 320px;
+    margin-right: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 25px;
+    text-align: center;
+}
+
+.job__post h2 {
+    font-size: 24px;
+    font-weight: bold;
+    word-break: break-word;
+    text-align: center;
+}
+
+.job__post h4 {
+    font-size: 21px;
+    font-weight: bolder;
+    word-break: break-word;
+    text-align: center;
+}
+
+.job__post p.salary {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 1;
+}
+
+.job__post p {
+    line-height: 1;
+}
+
+.option__icon {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    font-size: 18px;
+}
+
+.job__post span.tech {
+    background-color: #E80C7A;
+    border: 1px solid #E80C7A;
+    padding: 6px;
+    margin-right: 12px;
+    border-radius: 6px;
+    line-height: 2.6;
+}
