@@ -92,7 +92,7 @@
                 }
             },
             enableRecruiterForm() {
-                this.isRecruiter = true
+                this.isRecruiter = !this.isRecruiter;
             },
             canSubmit() {
                 if( this.formData.name && this.formData.email && (this.formData.password && this.formData.password.length > 6) ) {
